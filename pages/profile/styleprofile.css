@@ -1,0 +1,7 @@
+.pageProfile{
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
