@@ -1,12 +1,10 @@
 import Profile from "../../pages/profile/profile.js";
 import Main from "../../pages/main.js";
 import {SetRandomNumber, setSolutionInput} from "../index.js";
-
 const routes = {
     '/': Main,
     "/profile": Profile
 }
-export const selectors = []
 window.addEventListener("DOMContentLoaded", () => {
     const location = window.location.pathname
     const route = routes[location]()
@@ -41,10 +39,9 @@ const handleChange = () => {
         SetRandomNumber(routeContainer.querySelector('.buttonClick'), routeContainer.querySelector('.result'), routeContainer.querySelector('.solution'), routeContainer.querySelector('.correct'), routeContainer.querySelector('.nCorrect'));
         setSolutionInput(routeContainer.querySelector('.result'), routeContainer.querySelector('.solution'), routeContainer.querySelector('.correct'), routeContainer.querySelector('.nCorrect'));
     }else {
-        return 0
+      return 0
     }
 }
-
 
 window.onpopstate = handleChange
 window.route = route;

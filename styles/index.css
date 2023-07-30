@@ -17,7 +17,7 @@ button{
 }
 .main{
     gap: 20px;
-    height: 80vh;
+    height: 60vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -72,10 +72,36 @@ button{
     height: 20px;
 }
 .header{
+    margin-bottom: 12vh;
     margin-left: 15%;
     margin-right: 15%;
     justify-content: space-between;
     margin-top: 3vh;
     align-items: center;
     display: flex;
+}
+.login{
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25vh;
+   display: flex;
+    width: 80vw;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+    height: 40vh;
+}
+.formLogin{
+    width: 50%;
+    align-items: center;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+.formLogin input{
+    padding: 0px 4px;
+    height: 20px;
+    width: 100%;
 }

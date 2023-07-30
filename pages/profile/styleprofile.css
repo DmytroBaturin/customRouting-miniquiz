@@ -1,7 +1,17 @@
 .pageProfile{
-    height: 80vh;
+    height: 60vh;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.answers{
+    gap: 2vw;
+    display: flex;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
 }
